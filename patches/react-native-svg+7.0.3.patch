@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-svg/elements/Image.js b/node_modules/react-native-svg/elements/Image.js
+index 88a4551..9efae4d 100644
+--- a/node_modules/react-native-svg/elements/Image.js
++++ b/node_modules/react-native-svg/elements/Image.js
+@@ -1,7 +1,7 @@
+ import React from "react";
+ import PropTypes from "prop-types";
+ import { Image, requireNativeComponent } from "react-native";
+-import ImageSourcePropType from 'react-native/Libraries/Image/ImageSourcePropType';
++import { ImageSourcePropType } from 'react-native';
+ import { ImageAttributes } from "../lib/attributes";
+ import { numberProp, touchableProps, responderProps } from "../lib/props";
+ import Shape from "./Shape";
